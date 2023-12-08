@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&subset=cyrillic');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html{
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+
+  header {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .nesolestag-enadenud {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+    color: #333;
+    width: 50px;
+    height: 50px;
+    margin: 25px 20px 2px 2px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #333;
+    float: left;
+}
+.ico-contact {
+  line-height: 1.9 !important;
+}
+.meanous-andscoev {
+  float: left;
+  margin-bottom: 20px;
+}
+.aio-icon-title {
+  font-size: 16px;
+  color: #333;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .meanous-andscoev,
+  .ico-wrap {
+  float: none;
+  text-align: center;
+  }
+  .ico-wrap {
+  margin: 0 auto 15px auto;
+  }
+}
+
+section{
+margin-top: 50px;
+}
+
+  footer {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 172px;
+    height: 50px;
+    clear: both;
+  }
